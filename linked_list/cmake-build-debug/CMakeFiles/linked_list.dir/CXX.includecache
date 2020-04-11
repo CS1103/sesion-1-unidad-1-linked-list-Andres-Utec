@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/andresriveros/Desktop/github/linked_list/linked_list.h
+cctype
+-
+iostream
+-
+
+/Users/andresriveros/Desktop/github/linked_list/main.cpp
+iostream
+-
+cassert
+-
+string
+-
+linked_list.h
+/Users/andresriveros/Desktop/github/linked_list/linked_list.h
+
