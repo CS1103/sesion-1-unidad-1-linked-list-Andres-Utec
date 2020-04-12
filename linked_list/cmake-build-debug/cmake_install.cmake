@@ -1,4 +1,4 @@
-# Install script for directory: /Users/andresriveros/Desktop/github/linked_list
+# Install script for directory: /Users/andresriveros/Desktop/sesion-1-unidad-1-linked-list-Andres-Utec/linked_list
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/andresriveros/Desktop/github/linked_list/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/andresriveros/Desktop/sesion-1-unidad-1-linked-list-Andres-Utec/linked_list/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

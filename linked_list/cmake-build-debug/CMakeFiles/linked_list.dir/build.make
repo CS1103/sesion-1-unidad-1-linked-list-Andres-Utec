@@ -43,10 +43,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/andresriveros/Desktop/github/linked_list
+CMAKE_SOURCE_DIR = /Users/andresriveros/Desktop/sesion-1-unidad-1-linked-list-Andres-Utec/linked_list
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/andresriveros/Desktop/github/linked_list/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/andresriveros/Desktop/sesion-1-unidad-1-linked-list-Andres-Utec/linked_list/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/linked_list.dir/depend.make
@@ -59,43 +59,28 @@ include CMakeFiles/linked_list.dir/flags.make
 
 CMakeFiles/linked_list.dir/main.cpp.o: CMakeFiles/linked_list.dir/flags.make
 CMakeFiles/linked_list.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/andresriveros/Desktop/github/linked_list/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/linked_list.dir/main.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/linked_list.dir/main.cpp.o -c /Users/andresriveros/Desktop/github/linked_list/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/andresriveros/Desktop/sesion-1-unidad-1-linked-list-Andres-Utec/linked_list/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/linked_list.dir/main.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/linked_list.dir/main.cpp.o -c /Users/andresriveros/Desktop/sesion-1-unidad-1-linked-list-Andres-Utec/linked_list/main.cpp
 
 CMakeFiles/linked_list.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/linked_list.dir/main.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/andresriveros/Desktop/github/linked_list/main.cpp > CMakeFiles/linked_list.dir/main.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/andresriveros/Desktop/sesion-1-unidad-1-linked-list-Andres-Utec/linked_list/main.cpp > CMakeFiles/linked_list.dir/main.cpp.i
 
 CMakeFiles/linked_list.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/linked_list.dir/main.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/andresriveros/Desktop/github/linked_list/main.cpp -o CMakeFiles/linked_list.dir/main.cpp.s
-
-CMakeFiles/linked_list.dir/linked_list.cpp.o: CMakeFiles/linked_list.dir/flags.make
-CMakeFiles/linked_list.dir/linked_list.cpp.o: ../linked_list.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/andresriveros/Desktop/github/linked_list/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/linked_list.dir/linked_list.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/linked_list.dir/linked_list.cpp.o -c /Users/andresriveros/Desktop/github/linked_list/linked_list.cpp
-
-CMakeFiles/linked_list.dir/linked_list.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/linked_list.dir/linked_list.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/andresriveros/Desktop/github/linked_list/linked_list.cpp > CMakeFiles/linked_list.dir/linked_list.cpp.i
-
-CMakeFiles/linked_list.dir/linked_list.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/linked_list.dir/linked_list.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/andresriveros/Desktop/github/linked_list/linked_list.cpp -o CMakeFiles/linked_list.dir/linked_list.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/andresriveros/Desktop/sesion-1-unidad-1-linked-list-Andres-Utec/linked_list/main.cpp -o CMakeFiles/linked_list.dir/main.cpp.s
 
 # Object files for target linked_list
 linked_list_OBJECTS = \
-"CMakeFiles/linked_list.dir/main.cpp.o" \
-"CMakeFiles/linked_list.dir/linked_list.cpp.o"
+"CMakeFiles/linked_list.dir/main.cpp.o"
 
 # External object files for target linked_list
 linked_list_EXTERNAL_OBJECTS =
 
 linked_list: CMakeFiles/linked_list.dir/main.cpp.o
-linked_list: CMakeFiles/linked_list.dir/linked_list.cpp.o
 linked_list: CMakeFiles/linked_list.dir/build.make
 linked_list: CMakeFiles/linked_list.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/andresriveros/Desktop/github/linked_list/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable linked_list"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/andresriveros/Desktop/sesion-1-unidad-1-linked-list-Andres-Utec/linked_list/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable linked_list"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/linked_list.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -108,6 +93,6 @@ CMakeFiles/linked_list.dir/clean:
 .PHONY : CMakeFiles/linked_list.dir/clean
 
 CMakeFiles/linked_list.dir/depend:
-	cd /Users/andresriveros/Desktop/github/linked_list/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/andresriveros/Desktop/github/linked_list /Users/andresriveros/Desktop/github/linked_list /Users/andresriveros/Desktop/github/linked_list/cmake-build-debug /Users/andresriveros/Desktop/github/linked_list/cmake-build-debug /Users/andresriveros/Desktop/github/linked_list/cmake-build-debug/CMakeFiles/linked_list.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/andresriveros/Desktop/sesion-1-unidad-1-linked-list-Andres-Utec/linked_list/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/andresriveros/Desktop/sesion-1-unidad-1-linked-list-Andres-Utec/linked_list /Users/andresriveros/Desktop/sesion-1-unidad-1-linked-list-Andres-Utec/linked_list /Users/andresriveros/Desktop/sesion-1-unidad-1-linked-list-Andres-Utec/linked_list/cmake-build-debug /Users/andresriveros/Desktop/sesion-1-unidad-1-linked-list-Andres-Utec/linked_list/cmake-build-debug /Users/andresriveros/Desktop/sesion-1-unidad-1-linked-list-Andres-Utec/linked_list/cmake-build-debug/CMakeFiles/linked_list.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/linked_list.dir/depend
 

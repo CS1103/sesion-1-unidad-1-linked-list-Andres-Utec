@@ -6,13 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/Users/andresriveros/Desktop/github/linked_list/linked_list.h
+/Users/andresriveros/Desktop/sesion-1-unidad-1-linked-list-Andres-Utec/linked_list/linked_list.h
 cctype
 -
 iostream
 -
 
-/Users/andresriveros/Desktop/github/linked_list/main.cpp
+/Users/andresriveros/Desktop/sesion-1-unidad-1-linked-list-Andres-Utec/linked_list/main.cpp
 iostream
 -
 cassert
@@ -20,5 +20,5 @@ cassert
 string
 -
 linked_list.h
-/Users/andresriveros/Desktop/github/linked_list/linked_list.h
+/Users/andresriveros/Desktop/sesion-1-unidad-1-linked-list-Andres-Utec/linked_list/linked_list.h
 

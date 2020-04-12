@@ -6,7 +6,7 @@ using namespace std;
 
 int main() {
 
-    utec::linked_list_t ll;
+    utec::linked_list_t<int> ll;
 
     // Probar el metodo push_front;
     for(int i = 0; i < 10; ++i){
@@ -86,7 +86,7 @@ int main() {
 
     // insert test
 
-    utec::linked_list_t ll1;
+    utec::linked_list_t<int> ll1;
 
     for(int i = 0; i < 10; ++i){
         ll1.push_back(i);
@@ -95,32 +95,33 @@ int main() {
     ll1.insert(1, 200);
     ll1.insert(1,900);
     ll1.insert(5, 1000);
+    ll1.insert(13, 2000);
     string test_insert;
-    for(int i = 0; i < 14; ++i){
+    for(int i = 0; i < 15; ++i){
         test_insert += to_string(ll1.item(i)) + " ";
     }
-    assert(ll1.size()== 14);
-    assert(test_insert == "0 900 200 10 1 1000 2 3 4 5 6 7 8 9 ");
+    assert(ll1.size()== 15);
+    assert(test_insert == "0 900 200 10 1 1000 2 3 4 5 6 7 8 2000 9 ");
 
     // Constructor test - lvalue
-    utec::linked_list_t test1{ll1};
+    utec::linked_list_t<int> test1{ll1};
     string test_constructor;
     for(int i = 0; i < test1.size(); i++){
         test_constructor += to_string(test1.item(i)) + " ";
     }
-    assert(test1.size()== 14);
-    assert(test_constructor == "0 900 200 10 1 1000 2 3 4 5 6 7 8 9 ");
+    assert(test1.size()== 15);
+    assert(test_constructor == "0 900 200 10 1 1000 2 3 4 5 6 7 8 2000 9 ");
 
 
     // Equality operator test
 
-    utec::linked_list_t test2 = ll1;
+    utec::linked_list_t<int> test2 = ll1;
     string equality_test;
     for(int i = 0; i < test2.size(); i++){
         equality_test += to_string(ll1.item(i)) + " ";
     }
-    assert(test2.size()== 14);
-    assert(equality_test == "0 900 200 10 1 1000 2 3 4 5 6 7 8 9 ");
+    assert(test2.size()== 15);
+    assert(equality_test == "0 900 200 10 1 1000 2 3 4 5 6 7 8 2000 9 ");
 
     cout <<"This work fine!!" << endl;
 
